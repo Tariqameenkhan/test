@@ -132,14 +132,22 @@
 # print(ver[2][1])
 # print(ver[2][2])
 
+# name: list= [[123,'asad',777,'ali'] , [12,'ali', 'kan']]
+# print(name[0][0:3])
+
+# name : tuple= ((123,'ali' ,456) , (22,'khan', 77))
+# print(name[1])
 
 
+# name : set = {123, 'ali' ,123 ,'ali'}
+# for n in name:
+#     print(n)
 
 
-
-
-
-
+# name :dict[str,int] = { 'ali': 12, 
+#   'khan': 345,
+#   'king':234 ,
+# }
 
 
 
