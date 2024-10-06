@@ -165,12 +165,18 @@
 #      'marks': {23, 33, 44}
 #     }
 # ]
+# def pas ():
+#     while input("enter password") != "112":
+#      print("incorrect")
+#     return "correct"
+# print(pas())
 
+# def check():
+#     while input("Enter password: ") != '1223':
+#         print("Wrong password, try again.")
+#     return "Correct password!"
 
-
-
-
-
+# print(check())
 
 
 
