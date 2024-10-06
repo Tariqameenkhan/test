@@ -179,13 +179,25 @@
 # print(check())
 
 
+# name = ['ali','khan','asad']
+# print(name[0] .capitalize())
 
+# name = ['ali','vhan','asad']
+# for i in name:
+#     if i == 'asad':
+#         print(i .upper())
+#     else:
+#         print(i .lower())
 
+# name = ['ali','khan','asad']
+# print(f"hello{name[0]} and aslo {name}")
 
-
-
-
-
+# ver = "exit for end of porgram "
+# password = ""
+# while password != "exit":
+#     password = input(ver)
+#     if password != "exit":
+#         print(password)
 
 
 
