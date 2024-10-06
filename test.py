@@ -201,6 +201,10 @@
 
 
 
+# name : dict[str, int] ={
+#     'ali':12 ,
+#     'khan':22
+# }
 
 
 
