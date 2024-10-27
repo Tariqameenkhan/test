@@ -95,3 +95,65 @@
 # s1 = student("ali", [123, 333, "444"])  # "444" will be converted to an integer
 # s1.aver()
 
+
+# class st :
+#     def __init__(self,name) -> None:
+#         self.name =name
+#     @staticmethod
+#     def hel ():
+#         print("hello")
+# a1 = st ("ali")
+# print(a1.name)
+# print(a1.__dir__)
+# a1.hel()
+
+# class car:
+#     def __init__(self):
+#         self.clu= False
+#         self.acc=False
+#     def start (self):
+#         self.acc=True
+#         self.clu=True
+#         print("start")
+# t=car()
+# t.start()
+
+   # bank account example
+
+# class bank:
+#     def __init__(self,aco,bal) -> None:
+#         self.__acc=aco
+#         self.bal=bal
+#     def debit(self,amount):
+#         self.bal -= amount
+#         print(f"{amount}  was debit")
+#         print(self.total()," total balance")
+#         # print(f"total balance after debt :{self.bal}")
+
+#     def credit(self,amount):
+#         self.bal += amount
+#         print(f"{amount} was credit")
+#         print(self.total(), "total balance")
+#         # print(f"total balance after crdit :{self.bal}")
+
+#     def total (self):
+#         return self.bal
+    
+#     def a (self):
+#         print(self.__acc) 
+
+# m1 = bank(123,10000)
+# print(m1.bal)       
+# m1.debit(100)
+# m1.a() 
+
+
+# class c:
+#     name = "any"
+#     @classmethod
+#     def change (cls,name):
+#         cls.name= name
+# a = c ()
+# a.change("tariq")
+# print(a.name)
+# print(c.name)
