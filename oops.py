@@ -157,3 +157,23 @@
 # a.change("tariq")
 # print(a.name)
 # print(c.name)
+
+class cal:
+   def __init__(self,phy,math,urdu) -> None:
+      self.phy=phy
+      self.math=math
+      self.urdu=urdu
+   @property
+   def percent(self):
+      return str(self.urdu+self.math+self.phy / 3 )+ "%"
+
+s1=cal(99,99,99)
+print(s1.percent)
+
+s1.math=88  
+s1.phy=88
+s1.urdu=88
+print(s1.percent)
+
+
+
