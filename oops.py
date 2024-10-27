@@ -158,22 +158,69 @@
 # print(a.name)
 # print(c.name)
 
-class cal:
-   def __init__(self,phy,math,urdu) -> None:
-      self.phy=phy
-      self.math=math
-      self.urdu=urdu
-   @property
-   def percent(self):
-      return str(self.urdu+self.math+self.phy / 3 )+ "%"
+# class cal:
+#    def __init__(self,phy,math,urdu) -> None:
+#       self.phy=phy
+#       self.math=math
+#       self.urdu=urdu
+#    @property
+#    def percent(self):
+#       return str(self.urdu+self.math+self.phy / 3 )+ "%"
 
-s1=cal(99,99,99)
-print(s1.percent)
+# s1=cal(99,99,99)
+# print(s1.percent)
 
-s1.math=88  
-s1.phy=88
-s1.urdu=88
-print(s1.percent)
+# s1.math=88  
+# s1.phy=88
+# s1.urdu=88
+# print(s1.percent)
 
 
+# class sc:
+#    def __init__(self,name,adress) -> None:
+#       self.name=name
+#       self.adress=adress
+#    def show(self):
+#       print("my name is",self.name)
+#       print("my adress is",self.adress)
+# class stu(sc):
+#    def __init__(self,n,age) -> None:
+#       self.n=n
+#       self.age=age
+#       super().__init__("none","city")
+# a1=stu("ali",23)
+# print(a1.n,a1.age)      
+# a1.show()
 
+# class dog:
+#    def sound(self):
+#       return "boo"
+# class cat:
+#    def sound(self):
+#       return "meoo"
+   
+   
+# def an (animal):
+#     return animal.sound()
+
+
+# Cat=cat()
+# Dog=dog()
+# print(an(Cat))
+
+# class Market:
+#    def __init__(self, item, price) -> None:
+#       self.it = item
+#       self.pr = price
+
+#    def __add__(self, other):
+#       # Combine item names and sum prices
+#       new_item = self.it + " & " + other.it
+#       new_price = self.pr + other.pr
+#       return Market(new_item, new_price)
+
+# a = Market("ball", 234)
+# b = Market("call", 200)
+# c = a + b
+# print(c.it)  # Output: ball & call
+# print(c.pr)  # Output: 282
